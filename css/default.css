@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+html, body{
+    width: 100%;
+}
+
+body>header{
+    position: absolute;  
+    top: 0;
+    right: 0;
+    left: 0;
+}
