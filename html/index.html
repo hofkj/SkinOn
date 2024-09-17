@@ -1,25 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>SkinOn</title>
     <link rel="stylesheet" href="/css/default.css">
     <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/index.css">
 </head>
+
 <body>
-
+    <!-- 헤더 -->
     <header>
-
+        <div class="logo">SkinOn</div>
+        <nav>
+            <ul>
+                <li><a href="">morning</a></li>
+                <li><a href="">night</a></li>
+                <li><a href="#ingredients">routine</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search ingredients...">
+        </div>
     </header>
 
-    <section>
+    <!-- 메인 배너 -->
+    <section id="home" class="main-banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url('/images/water.jpg');">
+                    <div class="banner-content">
+                        <h1>Hydration and Moisture</h1>
+                        <p>보습 및 수분 공급</p>
+                        <a href="/html/ingredient.html" class="btn">성분 보러가기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('/images/vitamins.jpg');">
+                    <div class="banner-content">
+                        <h1>Antioxidant and Brightening</h1>
+                        <p>항산화 및 미백</p>
+                        <a href="/html/ingredient.html" class="btn">성분 보러가기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('/images/collagen.jpg');">
+                    <div class="banner-content">
+                        <h1>Wrinkle Improvement and Skin Elasticity</h1>
+                        <p>주름 개선 및 피부 탄력</p>
+                        <a href="/html/ingredient.html" class="btn">성분 보러가기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('/images/aha.jpg');">
+                    <div class="banner-content">
+                        <h1>Exfoliation and Skin Texture Improvement</h1>
+                        <p>각질 제거 및 피부 텍스처 개선</p>
+                        <a href="/html/ingredient.html" class="btn">성분 보러가기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('/images/alo-ae.jpg');">
+                    <div class="banner-content">
+                        <h1>Soothing and Healing</h1>
+                        <p>진정 및 치유</p>
+                        <a href="/html/ingredient.html" class="btn">성분 보러가기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('/images/sphingolipids.jpg');">
+                    <div class="banner-content">
+                        <h1>Skin Health and Function Improvement</h1>
+                        <p>피부 건강 및 기능 개선</p>
+                        <a href="/html/ingredient.html" class="btn">성분 보러가기</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 내비게이션 버튼 -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- 페이지네이션 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
 
+    <!-- 루틴 -->
+    <section id="ingredients" class="ingredients-section">
+        <div class="container">
+            <h2>skin care routine</h2>
+            <div class="ingredient-cards">
+                <div class="card">
+                    <img src="/images/morning.png" alt="아침 스킨 케어 루틴">
+                    <div class="card-content">
+                        <h3>morning</h3>
+                        <p>아침 스킨 케어 루틴</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/night.png" alt="저녁 수킨 케어 루틴">
+                    <div class="card-content">
+                        <h3>night</h3>
+                        <p>저녁 스킨 케어 루틴</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">SkinOn</div>
+                <p>Transform your skin with SkinOn.</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <a href="">morning</a>
+                <a href="">night</a>
+                <a href="#ingredients">routine</a>
+            </div>
+        </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/index.js"></script>
 </body>
+
 </html>

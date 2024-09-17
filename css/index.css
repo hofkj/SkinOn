@@ -1,0 +1,175 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-banner {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    /* 베너 내용 위치 미정 */
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* background-color: greenyellow; */
+    object-fit: cover;
+}
+
+.banner-content {
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.banner-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: navy;
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: yellowgreen;
+}
+
+.banner-content .btn {
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #ff6b6b, #ff9999);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.banner-content .btn:hover {
+    background: linear-gradient(135deg, #ff9999, #ff6b6b);
+}
+
+.swiper-pagination-bullet {
+    background-color: gray; /* 페이지네이션 기본 색상 */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ff6b6b; /* 활성화된 페이지네이션 색상 */
+}
+
+/* 내비게이션 버튼 기본 스타일 */
+.swiper-button-next, .swiper-button-prev {
+    color: #ff6b6b; /* 회색으로 설정 */
+}
+
+.ingredients-section, .products-section, .blog-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.ingredients-section h2, .products-section h2, .blog-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #ff6b6b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.ingredient-cards, .product-cards, .blog-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card-content {
+    text-align: left;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #777;
+}
+
+.card-content .btn {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+}
+
+.card-content .btn:hover {
+    background-color: #ff9999;
+}
+
+
+/* 애니메이션 */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
