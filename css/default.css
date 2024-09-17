@@ -26,3 +26,12 @@ body>header{
     right: 0;
     left: 0;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
