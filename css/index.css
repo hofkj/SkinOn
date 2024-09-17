@@ -87,13 +87,13 @@ body {
     color: #ff6b6b; /* 회색으로 설정 */
 }
 
-.ingredients-section, .products-section, .blog-section {
+.routine-section, .products-section, .blog-section {
     padding: 60px 20px;
     text-align: center;
     background-color: #fff;
 }
 
-.ingredients-section h2, .products-section h2, .blog-section h2 {
+.routine-section h2, .products-section h2, .blog-section h2 {
     font-size: 32px;
     margin-bottom: 40px;
     color: #ff6b6b;
@@ -101,7 +101,7 @@ body {
     letter-spacing: 2px;
 }
 
-.ingredient-cards, .product-cards, .blog-cards {
+.routine-cards, .product-cards, .blog-cards {
     display: flex;
     justify-content: center;
     gap: 20px;
