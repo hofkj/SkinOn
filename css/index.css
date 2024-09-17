@@ -164,3 +164,78 @@
         transform: translateY(0);
     }
 }
+
+
+/* 패드 반응형 (1194px 이하) */
+@media screen and (max-width: 1194px) {
+    .banner-content h1 {
+        font-size: 36px;
+    }
+    .banner-content p {
+        font-size: 16px;
+    }
+    .banner-content .btn {
+        padding: 10px 25px;
+    }
+
+    /* .card {
+        width: 100%;
+    }
+
+    .routine-cards {
+        display: block;
+    } */
+
+    .swiper-slide {
+        justify-content: center;
+    }
+}
+
+/* 핸드폰 반응형 (391px 이하) */
+@media screen and (max-width: 391px) {
+
+    .search-bar {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .main-banner {
+        height: 30vh;
+    }
+
+    .banner-content h1 {
+        font-size: 20px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+    }
+
+    .banner-content .btn {
+        padding: 8px 20px;
+    }
+
+    .routine-section h2 {
+        font-size: 26px;
+    }
+
+    .routine-cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-content h3 {
+        font-size: 18px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+}
