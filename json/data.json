@@ -1,0 +1,116 @@
+[
+    {
+        "name": "히알루론산",
+        "effect": "강력한 수분 공급",
+        "category": "보습 및 수분 공급",
+        "image": "히알루론산.jpg"
+    },
+    {
+        "name": "알로에 ",
+        "effect": "피부 진정 및 수분 공급",
+        "category": "보습 및 수분 공급",
+        "image": "알로에.jpg"
+    },
+    {
+        "name": "세라마이드",
+        "effect": "피부 장벽 강화 및 수분 유지",
+        "category": "보습 및 수분 공급",
+        "image": "세라마이드.jpg"
+    },
+    {
+        "name": "판토텐산",
+        "effect": "피부 보습",
+        "category": "보습 및 수분 공급",
+        "image": "판토텐산.jpg"
+    },
+    {
+        "name": "비타민C",
+        "effect": "항산화 및 미백",
+        "category": "항산화 및 미백",
+        "image": "비타민C.png"
+    },
+    {
+        "name": "글루타치온",
+        "effect": "항산화 및 미백",
+        "category": "항산화 및 미백",
+        "image": "글루타치온.jpg"
+    },
+    {
+        "name": "알부틴",
+        "effect": "피부 톤 개선 및 미백",
+        "category": "항산화 및 미백",
+        "image": "알부틴.png"
+    },
+    {
+        "name": "나이아신아마이드",
+        "effect": "미백, 피부 톤 균일화, 항염증",
+        "category": "항산화 및 미백",
+        "image": "나이아신아마이드.webp"
+    },
+    {
+        "name": "콜라겐",
+        "effect": "피부 탄력 증진",
+        "category": "주름 개선 및 피부 탄력",
+        "image": "콜라겐.jpg"
+    },
+    {
+        "name": "펩타이드",
+        "effect": "주름 개선, 콜라겐 합성 촉진",
+        "category": "주름 개선 및 피부 탄력",
+        "image": "펩타이드.png"
+    },
+    {
+        "name": "레티놀",
+        "effect": "주름 개선, 피부 재생 촉진",
+        "category": "주름 개선 및 피부 탄력",
+        "image": "레티놀.jpg"
+    },
+    {
+        "name": "아하",
+        "effect": "각질 제거, 피부 텍스처 개선",
+        "category": "각질 제거 및 피부 텍스처 개선",
+        "image": "아하.jpg"
+    },
+    {
+        "name": "바하",
+        "effect": "각질 제거, 모공 클렌징",
+        "category": "각질 제거 및 피부 텍스처 개선",
+        "image": "바하.jpeg"
+    },
+    {
+        "name": "파하",
+        "effect": "부드러운 각질 제거, 수분 공급",
+        "category": "각질 제거 및 피부 텍스처 개선",
+        "image": "파하.png"
+    },
+    {
+        "name": "라하",
+        "effect": "각질 제거, 피부 결 개선",
+        "category": "각질 제거 및 피부 텍스처 개선",
+        "image": "라하.jpeg"
+    },
+    {
+        "name": "시카",
+        "effect": "피부 진정, 치유 촉진",
+        "category": "진정 및 치유",
+        "image": "시카.png"
+    },
+    {
+        "name": "마데카소사이드",
+        "effect": "피부 진정, 치유",
+        "category": "진정 및 치유",
+        "image": "마데카소사이드.jpg"
+    },
+    {
+        "name": "티트리",
+        "effect": "항균, 진정",
+        "category": "진정 및 치유",
+        "image": "티트리.jpg"
+    },
+    {
+        "name": "여성초",
+        "effect": "피부 진정, 항염",
+        "category": "진정 및 치유",
+        "image": "여성초.jpg"
+    }
+]

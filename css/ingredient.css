@@ -21,7 +21,7 @@ a {
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
-    background: linear-gradient(45deg, #ff82ec, #fff48f);
+    background: linear-gradient(45deg, #baffa9, #fff48f);
 }
 
 .wrap h1 {
@@ -203,4 +203,34 @@ a {
 .wrap .swiper-pagination-fraction span:nth-of-type(1) {
     font-size: 30px;
     color: #fff;
+}
+
+/* 디자인 */
+/* 스와이퍼 슬라이드의 기본 스타일 */
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* 슬라이드 영역 밖으로 나가는 콘텐츠를 숨김 */
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* 내부 콘텐츠가 넘치면 숨김 */
+}
+
+.con {
+    width: 100%; /* 텍스트 영역을 컨테이너에 맞게 설정 */
+    height: 100%; /* 텍스트 영역을 컨테이너에 맞게 설정 */
+}
+
+img {
+    width: 70%; /* 이미지를 컨테이너 너비에 맞게 조정 */
+    height: 70%; /* 이미지를 컨테이너 높이에 맞게 조정 */
+    object-fit: cover; /* 이미지 비율을 유지하며 잘림 */
+    display: block; /* 이미지 아래의 여백 제거 */
 }
