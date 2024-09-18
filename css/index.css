@@ -178,13 +178,13 @@
         padding: 10px 25px;
     }
 
-    /* .card {
-        width: 100%;
+    .search-bar {
+        display: none;
     }
 
-    .routine-cards {
-        display: block;
-    } */
+    nav {
+        display: none;
+    }
 
     .swiper-slide {
         justify-content: center;
@@ -193,14 +193,6 @@
 
 /* 핸드폰 반응형 (391px 이하) */
 @media screen and (max-width: 391px) {
-
-    .search-bar {
-        display: none;
-    }
-
-    nav {
-        display: none;
-    }
 
     .main-banner {
         height: 30vh;

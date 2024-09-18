@@ -17,7 +17,8 @@ a {
 
 .wrap {
     width: 100%;
-    height: 700px;
+    /* 학교 노트북 화면 보고 바꾸기 */
+    height: 90vh;
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
@@ -35,9 +36,9 @@ a {
     top: 70px;
 }
 
-.wrap h1 span {
+/* .wrap h1 span {
     opacity: 0.8;
-}
+} */
 
 .wrap .auto {
     position: absolute;
@@ -66,6 +67,7 @@ a {
 }
 
 .swiper-wrapper .swiper-slide {
+    /* 학교 노트북 화면 보고 바꾸기 */
     width: 500px;
     height: 500px;
     position: relative;
@@ -206,7 +208,6 @@ a {
 }
 
 /* 디자인 */
-/* 스와이퍼 슬라이드의 기본 스타일 */
 .swiper-slide {
     display: flex;
     align-items: center;
@@ -233,4 +234,52 @@ img {
     height: 70%; /* 이미지를 컨테이너 높이에 맞게 조정 */
     object-fit: cover; /* 이미지 비율을 유지하며 잘림 */
     display: block; /* 이미지 아래의 여백 제거 */
+}
+
+/* 반응형 스타일 */
+
+@media screen and (max-width: 1194px) {
+    .search-bar {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* .swiper-wrapper .swiper-slide {
+        width: 400px;
+        height: 400px;
+    } */
+
+    .wrap h1 {
+        top: 40px;
+    }
+
+    .wrap .swiper-pagination-fraction {
+        top: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 391px) {
+
+    .swiper-wrapper .swiper-slide {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .swiper-wrapper .swiper-slide .inner .con h2 {
+        font-weight: normal;
+        font-size: 24px;
+        font-family: "roboto";
+        color: #111;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .swiper-wrapper .swiper-slide .inner .con h2::after {
+        margin-top: 5px;
+        height: 1.5px;
+    }
 }
