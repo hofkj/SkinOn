@@ -21,6 +21,7 @@
     align-items: center;
     /* 베너 내용 위치 미정 */
     justify-content: flex-end;
+    /* 위치 조절 필요 */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -38,44 +39,67 @@
 }
 
 .banner-content h1 {
-    font-size: 48px;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: navy;
+    color: #0A4A92;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .banner-content p {
-    font-size: 18px;
     margin-bottom: 20px;
-    color: yellowgreen;
+    color: #43D6A7;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .banner-content .btn {
     padding: 12px 30px;
-    background: linear-gradient(135deg, #ff6b6b, #ff9999);
-    color: #fff;
     text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
+    /* font-weight: bold; */
     transition: background 0.3s ease;
+    border-radius: 32px;
+    background: #30BF91;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .banner-content .btn:hover {
-    background: linear-gradient(135deg, #ff9999, #ff6b6b);
+    /* background: linear-gradient(135deg, #ff9999, #ff6b6b); */
+    /* 성분 보러가기 버튼 호버 */
 }
 
 .swiper-pagination-bullet {
-    background-color: gray; /* 페이지네이션 기본 색상 */
+    background-color: #cbcbcd; /* 페이지네이션 기본 색상 */
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #ff6b6b; /* 활성화된 페이지네이션 색상 */
+    background-color: #30BF91; /* 활성화된 페이지네이션 색상 */
 }
 
 /* 내비게이션 버튼 기본 스타일 */
 .swiper-button-next, .swiper-button-prev {
-    color: #ff6b6b; /* 회색으로 설정 */
+    color: #42D6A7; /* 회색으로 설정 */
+}
+
+.swiper-button-next {
+    margin-right: 10%;
+}
+
+.swiper-button-prev {
+    margin-left: 10%;
 }
 
 .routine-section, .products-section, .blog-section {
@@ -85,11 +109,15 @@
 }
 
 .routine-section h2, .products-section h2, .blog-section h2 {
-    font-size: 32px;
     margin-bottom: 40px;
-    color: #ff6b6b;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: #30BF91;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .routine-cards, .product-cards, .blog-cards {

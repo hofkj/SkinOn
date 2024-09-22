@@ -17,7 +17,7 @@ header {
 header .logo {
     font-size: 28px;
     font-weight: bold;
-    color: #ff6b6b;
+    color: #0A4A92;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -34,8 +34,11 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #333;
-    font-weight: 600;
+    color: #AAB2C8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     transition: color 0.3s ease;
 }
 
