@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Routine Tracker</title>
+    <link rel="stylesheet" href="/css/morning.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Skincare Routine Tracker</h1>
+        
+        <div class="routine-options">
+            <h2>Add New Routine Option</h2>
+            <div class="option-input">
+                <input type="text" id="new-option" placeholder="Enter new routine option">
+                <button onclick="addOption()">Add Option</button>
+            </div>
+            <ul id="option-list"></ul>
+        </div>
+
+        <div class="main-content">
+            <div class="routine-tracker">
+                <h2>Set Your Morning Routines</h2>
+                <select id="morning-routine-select-1" onchange="saveRoutine('morning', 1)"></select>
+                <select id="morning-routine-select-2" onchange="saveRoutine('morning', 2)"></select>
+                <select id="morning-routine-select-3" onchange="saveRoutine('morning', 3)"></select>
+            </div>
+
+            <div class="saved-routines">
+                <h2>Your Saved Morning Routines</h2>
+                <ul id="saved-morning-routines"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="/js/morning.js"></script>
+</body>
+</html>
