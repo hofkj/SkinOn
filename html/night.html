@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Routine Tracker - Night</title>
+    <link rel="stylesheet" href="/css/night.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Skincare Routine Tracker - Night</h1>
+        
+        <div class="routine-options">
+            <h2>Add New Routine Option</h2>
+            <div class="option-input">
+                <input type="text" id="new-option" placeholder="Enter new routine option">
+                <button onclick="addOption()">Add Option</button>
+            </div>
+            <ul id="option-list"></ul>
+        </div>
+
+        <div class="main-content">
+            <div class="routine-tracker">
+                <h2>Set Your Night Routines</h2>
+                <select id="night-routine-select-1" onchange="saveRoutine('night', 1)"></select>
+                <select id="night-routine-select-2" onchange="saveRoutine('night', 2)"></select>
+                <select id="night-routine-select-3" onchange="saveRoutine('night', 3)"></select>
+            </div>
+
+            <div class="saved-routines">
+                <h2>Your Saved Night Routines</h2>
+                <ul id="saved-night-routines"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="/js/night.js"></script>
+</body>
+</html>
