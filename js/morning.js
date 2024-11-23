@@ -68,7 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
     updateRoutineSelects();
     displaySavedRoutines();
 
-    // Set initial values from localStorage
     for (let i = 1; i <= 3; i++) {
         const morningRoutine = localStorage.getItem(`morning-routine-${i}`);
         if (morningRoutine) document.getElementById(`morning-routine-select-${i}`).value = morningRoutine;
