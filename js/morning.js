@@ -11,6 +11,13 @@ function addOption() {
     }
 }
 
+function clearAllOptions() {
+    routineOptions = [];
+    localStorage.removeItem('routineOptions');
+    updateOptionList();
+    updateRoutineSelects();
+}
+
 function updateOptionList() {
     const optionList = document.getElementById('option-list');
     optionList.innerHTML = '';

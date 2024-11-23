@@ -11,6 +11,13 @@ function addOption() {
     }
 }
 
+function clearAllOptions() {
+    routineOptions = [];
+    localStorage.removeItem('routineOptions');
+    updateOptionList();
+    updateRoutineSelects();
+}
+
 function updateOptionList() {
     const optionList = document.getElementById('option-list');
     optionList.innerHTML = '';
@@ -68,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
     updateRoutineSelects();
     displaySavedRoutines();
 
-    // Set initial values from localStorage
     for (let i = 1; i <= 3; i++) {
         const nightRoutine = localStorage.getItem(`night-routine-${i}`);
         if (nightRoutine) document.getElementById(`night-routine-select-${i}`).value = nightRoutine;

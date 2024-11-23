@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkinOn</title>
     <link rel="icon" href="/images/logo-cloud.png" type="image/png">
-
     <link rel="stylesheet" href="/css/morning.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
@@ -33,33 +32,35 @@
     </header>
 
     <main>
-    <div class="container">
-        <h1>Skincare Routine Tracker</h1>
+        <div class="container">
+            <h1>Skincare Routine Tracker</h1>
 
-        <div class="routine-options">
-            <h2>Add New Routine Option</h2>
-            <div class="option-input">
-                <input type="text" id="new-option" placeholder="Enter new routine option">
-                <button onclick="addOption()">Add Option</button>
+            <div class="routine-options">
+                <h2>Add New Routine Option</h2>
+                <div class="option-input">
+                    <input type="text" id="new-option" placeholder="Enter new routine option">
+                    <button onclick="addOption()">Add Option</button>
+                    <!-- 애드 옵션 옆에 전체 지우기 버튼 배치 -->
+                    <button onclick="clearAllOptions()">Delete All Options</button>
+                </div>
+                <ul id="option-list"></ul>
             </div>
-            <ul id="option-list"></ul>
+
+            <div class="main-content">
+                <div class="routine-tracker">
+                    <h2>Set Your Morning Routines</h2>
+                    <select id="morning-routine-select-1" onchange="saveRoutine('morning', 1)"></select>
+                    <select id="morning-routine-select-2" onchange="saveRoutine('morning', 2)"></select>
+                    <select id="morning-routine-select-3" onchange="saveRoutine('morning', 3)"></select>
+                </div>
+
+                <div class="saved-routines">
+                    <h2>Your Saved Morning Routines</h2>
+                    <ul id="saved-morning-routines"></ul>
+                </div>
+            </div>
         </div>
-
-        <div class="main-content">
-            <div class="routine-tracker">
-                <h2>Set Your Morning Routines</h2>
-                <select id="morning-routine-select-1" onchange="saveRoutine('morning', 1)"></select>
-                <select id="morning-routine-select-2" onchange="saveRoutine('morning', 2)"></select>
-                <select id="morning-routine-select-3" onchange="saveRoutine('morning', 3)"></select>
-            </div>
-
-            <div class="saved-routines">
-                <h2>Your Saved Morning Routines</h2>
-                <ul id="saved-morning-routines"></ul>
-            </div>
-        </div>
-    </div>
-</main>
+    </main>
 
     <!-- 푸터 -->
     <footer>
