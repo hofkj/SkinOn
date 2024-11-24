@@ -1,3 +1,17 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -11,89 +25,6 @@
     overflow: hidden;
 }
 
-.swiper-container {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    display: flex;
-    align-items: center;
-    /* 베너 내용 위치 미정 */
-    justify-content: flex-end;
-    /* 위치 조절 필요 */
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    /* background-color: greenyellow; */
-    object-fit: cover;
-}
-
-.banner-content {
-    text-align: center;
-    color: #fff;
-    max-width: 600px;
-    animation: fadeInUp 1s ease forwards;
-    opacity: 0;
-    transform: translateY(20px);
-}
-
-.banner-content h1 {
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #0A4A92;
-    text-align: center;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.banner-content p {
-    margin-bottom: 20px;
-    color: #43D6A7;
-    text-align: center;
-    font-family: Orbitron;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.banner-content .btn {
-    padding: 12px 30px;
-    text-decoration: none;
-    /* font-weight: bold; */
-    transition: background 0.3s ease;
-    border-radius: 32px;
-    background: #30BF91;
-    color: #FFF;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.banner-content .btn:hover {
-    /* background: linear-gradient(135deg, #ff9999, #ff6b6b); */
-    /* 성분 보러가기 버튼 호버 */
-}
-
-.swiper-pagination-bullet {
-    background-color: #cbcbcd; /* 페이지네이션 기본 색상 */
-}
-
-.swiper-pagination-bullet-active {
-    background-color: #30BF91; /* 활성화된 페이지네이션 색상 */
-}
-
-/* 내비게이션 버튼 기본 스타일 */
-.swiper-button-next, .swiper-button-prev {
-    color: #42D6A7; /* 회색으로 설정 */
-}
-
 .swiper-button-next {
     margin-right: 5%;
 }
@@ -102,13 +33,55 @@
     margin-left: 5%;
 }
 
-.routine-section, .products-section, .blog-section {
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.routine-section,
+.products-section,
+.blog-section {
     padding: 60px 20px;
     text-align: center;
     background-color: #fff;
 }
 
-.routine-section h2, .products-section h2, .blog-section h2 {
+.routine-section h2,
+.products-section h2,
+.blog-section h2 {
     margin-bottom: 70px;
     margin-top: 130px;
     text-transform: uppercase;
@@ -121,7 +94,9 @@
     line-height: normal;
 }
 
-.routine-cards, .product-cards, .blog-cards {
+.routine-cards,
+.product-cards,
+.blog-cards {
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -166,98 +141,110 @@
     color: #777;
 }
 
-.card-content .btn {
-    padding: 10px 20px;
-    background-color: #ff6b6b;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-    display: inline-block;
-    transition: background 0.3s ease;
-    margin-top: 15px;
+
+
+/* 전체 배경 및 슬라이드 스타일 */
+.main-banner {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
 }
 
-.card-content .btn:hover {
-    background-color: #ff9999;
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    /* 이미지가 슬라이드를 꽉 채움 */
+    background-position: center center;
+    /* 이미지 중심에 맞춤 */
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* 배너 텍스트 영역 */
+.banner-content1 {
+    color: white;
+    /* 텍스트 가독성 향상 */
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    /* 슬라이드의 정확한 중앙에 배치 */
+    text-align: center;
+    padding: 20px;
+    max-width: 80%;
+}
+
+.banner-content {
+    color: white;
+    /* 텍스트 가독성 향상 */
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    /* 슬라이드의 정확한 중앙에 배치 */
+    text-align: center;
+    padding: 20px;
+    max-width: 80%;
+    width: 727px;
+height: 251px;
+}
+
+/* 제목 스타일 */
+h1 {
+    color: var(--deepblue, #0A4A92);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* 부제목 스타일 */
+.swiper-slide p {
+    color: var(--deepblue, #0A4A92);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 
-/* 애니메이션 */
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.banner-content .btn:active {
+    transform: translateY(0);
+    /* 버튼 클릭 시 원위치 */
 }
 
+/* 슬라이드 하단의 세로 여백을 최소화 */
+.swiper-button-next,
+.swiper-button-prev {
+    top: 50%;
+    transform: translateY(-50%);
+}
 
-/* 패드 반응형 (1194px 이하) */
-@media screen and (max-width: 1194px) {
+/* 슬라이드 내 텍스트가 너무 크지 않게 조정 */
+@media (max-width: 768px) {
     .banner-content h1 {
-        font-size: 36px;
+        font-size: 34px;
     }
+
     .banner-content p {
+        font-size: 14px;
+    }
+
+    .banner-content .btn {
+        padding: 12px 25px;
         font-size: 16px;
     }
-    .banner-content .btn {
-        padding: 10px 25px;
-    }
-
-    .search-bar {
-        display: none;
-    }
-
-    nav {
-        display: none;
-    }
-
-    .swiper-slide {
-        justify-content: center;
-    }
 }
 
-/* 핸드폰 반응형 (391px 이하) */
-@media screen and (max-width: 391px) {
 
-    .main-banner {
-        height: 30vh;
-    }
-
-    .banner-content h1 {
-        font-size: 20px;
-    }
-
-    .banner-content p {
-        font-size: 14px;
-    }
-
-    .banner-content .btn {
-        padding: 8px 20px;
-    }
-
-    .routine-section h2 {
-        font-size: 26px;
-    }
-
-    .routine-cards {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .card {
-        width: 100%;
-    }
-
-    .card-content h3 {
-        font-size: 18px;
-    }
-
-    .card-content p {
-        font-size: 14px;
-    }
-}
+/* 반응형 */

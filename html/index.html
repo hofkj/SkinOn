@@ -2,16 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>SkinOn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon" href="/images/logo-cloud.png" type="image/png">
 
-    <title>SkinOn</title>
     <link rel="stylesheet" href="/css/default.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/index.css">
+
 </head>
 
 <body>
@@ -24,61 +25,89 @@
         </div>
         <nav>
             <ul>
-                <li><a href="/html/morning.html">morning</a></li>
-                <li><a href="/html/night.html">night</a></li>
-                <li><a href="#routine">routine</a></li>
+                <li><a href="/html/ingredient.html?category=보습%20효과">moisturizing</a></li>
+                <li><a href="/html/ingredient.html?category=미백%20및%20피부%20톤%20개선">Brightening</a></li>
+                <li><a href="/html/ingredient.html?category=피부%20재생%20및%20탄력">Regeneration</a></li>
+                <li><a href="/html/ingredient.html?category=주름%20개선%20및%20안티에이징">Anti-aging</a></li>
+                <li><a href="/html/ingredient.html?category=각질%20제거%20및%20피부결%20개선">texture</a></li>
+                <li><a href="/html/ingredient.html?category=피부%20진정%20및%20트러블%20진정">Soothing</a></li>
+
             </ul>
         </nav>
-        <div class="search-bar">
-            <input type="text" placeholder="Search...">
-        </div>
+        <!-- <nav class="nav container">
+            <a href="/"> <i class="bi bi-bank2"></i></a>
+               
+           <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">학교</a></li>
+            <li class="nav-item"><a href="school-market.html" class="nav-link">매점</a></li>
+            <li class="nav-item"><a href="dormitory.html" class="nav-link">기숙사</a></li>
+           </ul>
+
+            <div class="nav-toggle" i
+            d="nav-toggle">
+                <i class="bi bi-list"></i>
+            </div>
+        </nav> -->
     </header>
 
-    <!-- 메인 배너 -->
     <section id="home" class="main-banner">
-        <div class="swiper-container">
+
+        <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url('/images/water.jpg');">
-                    <div class="banner-content">
-                        <h1>Hydration and Moisture</h1>
-                        <p>보습 및 수분 공급</p>
-                        <a href="/html/ingredient.html?category=보습%20및%20수분%20공급" class="btn">성분 보러가기</a>
+                <div class="swiper-slide" style="background-image: url('/images/water.png');">
+                    <div class="banner-content1">
+                        <h1 class="title">Ultimate Hydration <br> for Your Skin</h1>
+                        <p>보습 효과</p>
+                        <a href="/html/ingredient.html?category=보습%20효과" class="btn"></a>
                     </div>
                 </div>
-                <div class="swiper-slide" style="background-image: url('/images/vitamins.jpg');">
+
+                <div class="swiper-slide" style="background-image: url('/images/vitaminc.png');">
                     <div class="banner-content">
-                        <h1>Antioxidant and Brightening</h1>
-                        <p>항산화 및 미백</p>
-                        <a href="/html/ingredient.html?category=항산화%20및%20미백" class="btn">성분 보러가기</a>
+                        <h1>Brighten and Revitalize <br> Your Skin</h1>
+                        <p>미백 및 피부 톤 개선</p>
+                        <a href="/html/ingredient.html?category=미백%20및%20피부%20톤%20개선" class="btn"></a>
                     </div>
                 </div>
+
                 <div class="swiper-slide" style="background-image: url('/images/collagen.jpg');">
                     <div class="banner-content">
-                        <h1>Wrinkle Improvement and Skin Elasticity</h1>
-                        <p>주름 개선 및 피부 탄력</p>
-                        <a href="/html/ingredient.html?category=주름%20개선%20및%20피부%20탄력" class="btn">성분 보러가기</a>
+                        <h1>Firm, Revive, and Renew</h1>
+                        <p>피부 재생 및 탄력</p>
+                        <a href="/html/ingredient.html?category=피부%20재생%20및%20탄력" class="btn"></a>
                     </div>
                 </div>
-                <div class="swiper-slide" style="background-image: url('/images/aha.jpg');">
+
+                <div class="swiper-slide" style="background-image: url('/images/retinol.png');">
                     <div class="banner-content">
-                        <h1>Exfoliation and Skin Texture Improvement</h1>
-                        <p>각질 제거 및 피부 텍스처 개선</p>
-                        <a href="/html/ingredient.html?category=각질%20제거%20및%20피부%20텍스처%20개선" class="btn">성분 보러가기</a>
+                        <h1>Anti-Aging and Wrinkle Improvement</h1>
+                        <p>주름 개선 및 안티에이징</p>
+                        <a href="/html/ingredient.html?category=주름%20개선%20및%20안티에이징" class="btn"></a>
                     </div>
                 </div>
-                <div class="swiper-slide" style="background-image: url('/images/alo-ae.jpg');">
+
+                <div class="swiper-slide" style="background-image: url('/images/bha.png');">
                     <div class="banner-content">
-                        <h1>Soothing and Healing</h1>
-                        <p>진정 및 치유</p>
-                        <a href="/html/ingredient.html?category=진정%20및%20치유" class="btn">성분 보러가기</a>
+                        <h1>Exfoliate for a Smooth, <br> Refined Texture</h1>
+                        <p>각질 제거 및 피부결 개선</p>
+                        <a href="/html/ingredient.html?category=각질%20제거%20및%20피부결%20개선" class="btn"></a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image: url('/images/teatree.png');">
+                    <div class="banner-content">
+                        <h1>Balance and Restore <br> Your Skin's Health</h1>
+                        <p>피부 진정 및 트러블 진정</p>
+                        <a href="/html/ingredient.html?category=피부%20진정%20및%20트러블%20진정" class="btn"></a>
                     </div>
                 </div>
             </div>
-            <!-- 내비게이션 버튼 -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <!-- 페이지네이션 -->
-            <div class="swiper-pagination"></div>
+
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
         </div>
     </section>
 
@@ -118,8 +147,27 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="/js/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script src=""></script> -->
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
+
+
 
 </html>
