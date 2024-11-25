@@ -1,0 +1,33 @@
+[
+    {
+        "img" : "웰라쥬 앰플.jpg",
+        "brand" : "웰라쥬",
+        "category": "앰플",
+        "ingredient" : "히알루론산"
+    },
+    {
+        "img" : "웰라쥬 앰플.jpg",
+        "brand" : "웰라쥬",
+        "category": "앰플",
+        "ingredient" : "히알루론산"
+    },
+    {
+        "img" : "웰라쥬 앰플.jpg",
+        "brand" : "웰라쥬",
+        "category": "앰플",
+        "ingredient" : "히알루론산"
+    },
+    {
+        "img" : "웰라쥬 앰플.jpg",
+        "brand" : "웰라쥬",
+        "category": "앰플",
+        "ingredient" : "히알루론산"
+    },
+    {
+        "img" : "웰라쥬쥬 앰플.jpg",
+        "brand" : "웰라쥬쥬",
+        "category": "앰플쥬",
+        "ingredient" : "히알루론산쥬"
+    }
+
+]
