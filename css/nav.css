@@ -1,0 +1,85 @@
+body>header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* position 설정하면 가려짐 방지 */
+    z-index: 10;
+}
+
+nav {
+    height: var(--nav-height);
+    background-color: var(--primary--color);
+}
+
+.nav.container {
+    /* 기본값 : 가로로 배치 */
+    display: flex;  
+    /* 메인축으로 양쪽정렬 */
+    justify-content: space-between;
+    /* 교차축으로 가운데 정렬 */
+    align-items: center;
+    padding: 0 40px;
+    color: #fff;
+    font-size: var(--h2--font--size);
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+
+/* mobile */
+@media screen and (max-width: 1024px) {
+
+    .nav.container {
+        /* 좌우 여백 좀 줄이자 */
+        padding: 0 20px;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 76px;       /* calc( 수치 연산자 수치)*/
+        right: 0;
+        left: 0;
+        /* flex 방향 세로로 */
+        flex-direction: column;
+        background-color: hsla(200, 100%, 25%, 0.6);
+        z-index: -1;        /*nav 뒤로 보내자*/
+        backdrop-filter: blur(8px);
+    }
+
+    .nav-item {
+        padding: 0.5rem 1rem;
+        /* 링크의 밑줄 */
+        border-bottom: 2px solid white;
+        text-align: center;
+        /* 메뉴 아이템 너비를 넓히자 */
+        width: 100%;
+    }
+
+    .nav-link {
+        /* 넓어진 메뉴 아이템 너비 다 차지하자 */
+        display: block;
+    }
+
+    .nav-toggle {
+        /* 햄버거 메뉴 보이자 */
+        display: block;
+    }
+
+    .show-menu {
+        top: -400px;
+    }
+}
