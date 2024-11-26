@@ -1,33 +1,988 @@
 [
     {
-        "img" : "웰라쥬 앰플.jpg",
-        "brand" : "웰라쥬",
-        "category": "앰플",
-        "ingredient" : "히알루론산"
+        "name": "hyaluronic",
+        "effect": "수분을 끌어들여 피부를 촉촉하게 유지. 피부 장벽 강화.",
+        "detail": " 다른 성분이랑 같이 쓰면 좋음"
     },
     {
-        "img" : "웰라쥬 앰플.jpg",
-        "brand" : "웰라쥬",
+        "img": "웰라쥬 앰플.jpg",
+        "brand": "웰라쥬",
         "category": "앰플",
-        "ingredient" : "히알루론산"
+        "ingredient": "히알루론산"
     },
     {
-        "img" : "웰라쥬 앰플.jpg",
-        "brand" : "웰라쥬",
-        "category": "앰플",
-        "ingredient" : "히알루론산"
+        "img": "웰라쥬 크림.jpg",
+        "brand": "웰라쥬",
+        "category": "크림",
+        "ingredient": "히알루론산"
     },
     {
-        "img" : "웰라쥬 앰플.jpg",
-        "brand" : "웰라쥬",
-        "category": "앰플",
-        "ingredient" : "히알루론산"
+        "img": "더랩바이블랑두 크림.jpg",
+        "brand": "더랩바이블랑두",
+        "category": "크림",
+        "ingredient": "히알루론산"
     },
     {
-        "img" : "웰라쥬쥬 앰플.jpg",
-        "brand" : "웰라쥬쥬",
-        "category": "앰플쥬",
-        "ingredient" : "히알루론산쥬"
+        "img": "더랩바이블랑두 토너.jpg",
+        "brand": "더랩바이블랑두",
+        "category": "토너",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "더랩바이블랑두 패드.jpg",
+        "brand": "더랩바이블랑두",
+        "category": "패드",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "더마토리 앰플.jpg",
+        "brand": "더마토리",
+        "category": "앰플",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "더마토리 패드.jpg",
+        "brand": "더마토리",
+        "category": "패드",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "메디필 앰플.jpg",
+        "brand": "메디필",
+        "category": "앰플",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "메디필 크림.jpg",
+        "brand": "메디필",
+        "category": "크림",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "메디필 토너.jpg",
+        "brand": "메디필",
+        "category": "토너",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "브링그린 세럼.png",
+        "brand": "브링그린",
+        "category": "세럼",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "브링그린 토너.jpg",
+        "brand": "브링그린",
+        "category": "토너",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "아비브 크림.jpg",
+        "brand": "아비브",
+        "category": "크림",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "아비브 패드.jpg",
+        "brand": "아비브",
+        "category": "패드",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "웰라쥬 토너.jpg",
+        "brand": "웰라쥬",
+        "category": "토너",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "이니스프리 세럼.png",
+        "brand": "이니스프리",
+        "category": "세럼",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "이니스프리 스킨.jpg",
+        "brand": "이니스프리",
+        "category": "스킨",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "이니스프리 크림.jpg",
+        "brand": "이니스프리",
+        "category": "크림",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "이즈앤트리 세럼.jpg",
+        "brand": "이즈앤트리",
+        "category": "세럼",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "이즈앤트리 토너.webp",
+        "brand": "이즈앤트리",
+        "category": "토너",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "토리든 세럼.jpg",
+        "brand": "토리든",
+        "category": "세럼",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "토리든 수딩크림.jpg",
+        "brand": "토리든",
+        "category": "크림",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "토리든 토너.jpg",
+        "brand": "토리든",
+        "category": "토너",
+        "ingredient": "히알루론산"
+    },
+    {
+        "img": "토리든 패드.jpg",
+        "brand": "토리든",
+        "category": "패드",
+        "ingredient": "히알루론산"
+    },
+    {
+        "name": "펩타이드",
+        "effect": "콜라겐 생성을 촉진하여 피부 탄력 개선.",
+        "detail": "ㅇㅇ"
+    },
+    {
+        "img": "더페이스샵 크림.jpg",
+        "brand": "더페이스샵",
+        "category": "크림",
+        "ingredient": "펩타이드"
+    },
+    {
+        "img": "디오디너리 세럼.jpg",
+        "brand": "디오디너리",
+        "category": "세럼",
+        "ingredient": "펩타이드"
+    },
+    {
+        "img": "라네즈 스킨.jpg",
+        "brand": "라네즈",
+        "category": "스킨",
+        "ingredient": "펩타이드"
+    },
+    {
+        "img": "스킨푸드 패드.jpg",
+        "brand": "스킨푸드",
+        "category": "패드",
+        "ingredient": "펩타이드"
+    },
+    {
+        "img": "앰플엔 앰플.jpg",
+        "brand": "앰플엔",
+        "category": "앰플",
+        "ingredient": "펩타이드"
+    },
+    {
+        "img": "에스네이처 에센스.jpg",
+        "brand": "에스네이처",
+        "category": "에센스",
+        "ingredient": "펩타이드"
+    },
+    {
+        "img": "웰라쥬 앰플.jpg",
+        "brand": "웰라쥬",
+        "category": "앰플",
+        "ingredient": "펩타이드"
+    },
+    {
+        "img": "웰라쥬 크림.jpg",
+        "brand": "웰라쥬",
+        "category": "크림",
+        "ingredient": "펩타이드"
+    },
+    {
+        "img": "웰라쥬 토너.jpg",
+        "brand": "웰라쥬",
+        "category": "토너",
+        "ingredient": "펩타이드"
+    },
+    {
+        "img": "코스알엑스 세럼.jpg",
+        "brand": "코스알엑스",
+        "category": "세럼",
+        "ingredient": "펩타이드"
+    },
+    {
+        "img": "프리메라 세럼.jpg",
+        "brand": "프리메라",
+        "category": "세럼",
+        "ingredient": "펩타이드"
+    },
+    {
+        "name": "판토텐산",
+        "effect": "피부 보습 및 진정.",
+        "detail": "ㅇㅇ"
+    },
+    {
+        "img": "넘버즈인 세럼.jpg",
+        "brand": "넘버즈인",
+        "category": "세럼",
+        "ingredient": "판토텐산"
+    },
+    {
+        "img": "넘버즈인 수딩크림.jpg",
+        "brand": "넘버즈인",
+        "category": "수딩크림",
+        "ingredient": "판토텐산"
+    },
+    {
+        "img": "넘버즈인 파우더.jpg",
+        "brand": "넘버즈인",
+        "category": "파우더",
+        "ingredient": "판토텐산"
+    },
+    {
+        "name": "콜라겐",
+        "effect": "피부에 탄력을 부여하고 주름 완화.",
+        "detail": "ㅇㅇ"
+    },
+    {
+        "img": "ckd 크림.jpg",
+        "brand": "ckd",
+        "category": "크림",
+        "ingredient": "콜라겐"
+    },
+    {
+        "img": "더랩바이블랑두 세럼.jpg",
+        "brand": "더랩",
+        "category": "세럼",
+        "ingredient": "콜라겐"
+    },
+    {
+        "img": "바이오힐보 세럼.jpg",
+        "brand": "바이오힐보",
+        "category": "세럼",
+        "ingredient": "콜라겐"
+    },
+    {
+        "img": "바이오힐보 크림.jpg",
+        "brand": "바이오힐보",
+        "category": "크림",
+        "ingredient": "콜라겐"
+    },
+    {
+        "img": "아비브 아이크림.jpg",
+        "brand": "아비브",
+        "category": "아이크림",
+        "ingredient": "콜라겐"
+    },
+    {
+        "img": "아비브 패드.jpg",
+        "brand": "아비브",
+        "category": "패드",
+        "ingredient": "콜라겐"
+    },
+    {
+        "img": "아비브 아이패치.jpg",
+        "brand": "아비브",
+        "category": "아이패치",
+        "ingredient": "콜라겐"
+    },
+    {
+        "img": "클라뷰 크림.jpg",
+        "brand": "클라뷰",
+        "category": "크림",
+        "ingredient": "콜라겐"
+    },
+    {
+        "img": "토리든 크림.jpg",
+        "brand": "토리든",
+        "category": "크림",
+        "ingredient": "콜라겐"
+    },    
+    {
+        "name": "알부틴",
+        "effect": "멜라닌 생성을 억제하여 미백 효과.",
+        "detail": "ㅇㅇ"
+    },
+    {
+        "img": "디오디너리 앰플.jpg",
+        "brand": "디오디너리",
+        "category": "앰플",
+        "ingredient": "알부틴"
+    },
+    {
+        "img": "메디필 앰플.jpg",
+        "brand": "메디필",
+        "category": "앰플",
+        "ingredient": "알부틴"
+    },
+    {
+        "img": "아누아 세럼.jpg",
+        "brand": "아누아",
+        "category": "세럼",
+        "ingredient": "알부틴"
+    },
+    {
+        "img": "아이소이 세럼.jpg",
+        "brand": "아이소이",
+        "category": "세럼",
+        "ingredient": "알부틴"
+    },
+    {
+        "img": "아이소이 크림.jpg",
+        "brand": "아이소이",
+        "category": "크림",
+        "ingredient": "알부틴"
+    },
+    {
+        "img": "아이소이 패드.jpg",
+        "brand": "아이소이",
+        "category": "패드",
+        "ingredient": "알부틴"
+    },
+    {
+        "img": "조선미녀 세럼.jpg",
+        "brand": "조선미녀",
+        "category": "세럼",
+        "ingredient": "알부틴"
+    },
+    {
+        "img": "코스알엑스 세럼.jpg",
+        "brand": "코스알엑스",
+        "category": "세럼",
+        "ingredient": "알부틴"
+    },
+    {
+        "name": "알로에",
+        "effect": "피부 진정 및 수분 공급.",
+        "detail": "ㅇㅇ"
+    },
+    {
+        "img": "디오디너리 앰플.jpg",
+        "brand": "디오디너리",
+        "category": "앰플",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "마녀공장 수딩젤.jpg",
+        "brand": "마녀공장",
+        "category": "수딩젤",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "마몽드 스킨.jpg",
+        "brand": "마몽드",
+        "category": "스킨",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "마몽드 크림.jpg",
+        "brand": "마몽드",
+        "category": "크림",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "바이오힐보 앰플.jpg",
+        "brand": "바이오힐보",
+        "category": "앰플",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "앰플엔 앰플.jpg",
+        "brand": "앰플엔",
+        "category": "앰플",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "에스트라 크림.jpg",
+        "brand": "에스트라",
+        "category": "크림",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "이니스프리 크림.jpg",
+        "brand": "이니스프리",
+        "category": "크림",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "일리윤 로션.jpg",
+        "brand": "일리윤",
+        "category": "로션",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "일리윤 수딩젤.jpg",
+        "brand": "일리윤",
+        "category": "수딩젤",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "토리든 에센스.jpg",
+        "brand": "토리든",
+        "category": "에센스",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "토리든 크림.jpg",
+        "brand": "토리든",
+        "category": "크림",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "필리프 로션.jpg",
+        "brand": "필리프",
+        "category": "로션",
+        "ingredient": "알로에"
+    },
+    {
+        "img": "필리프 크림.jpg",
+        "brand": "필리프",
+        "category": "크림",
+        "ingredient": "알로에"
+    },
+    {
+        "name": "비타민C",
+        "effect": "항산화 작용과 함께 멜라닌 억제로 피부 톤 밝게.",
+        "detail": "ㅇㅇ"
+    },
+    {
+        "img": "구달 세럼.jpg",
+        "brand": "구달",
+        "category": "세럼",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "구달 크림.jpg",
+        "brand": "구달",
+        "category": "크림",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "구달 패드.jpg",
+        "brand": "구달",
+        "category": "패드",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "라운드랩 세럼.jpg",
+        "brand": "라운드랩",
+        "category": "세럼",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "라운드랩 크림.jpg",
+        "brand": "라운드랩",
+        "category": "크림",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "메디힐 세럼.jpg",
+        "brand": "메디힐",
+        "category": "세럼",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "메디힐 패드.jpg",
+        "brand": "메디힐",
+        "category": "패드",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "미샤 앰플.jpg",
+        "brand": "미샤",
+        "category": "앰플",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "비플레인 앰플.jpg",
+        "brand": "비플레인",
+        "category": "앰플",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "성분에디터 앰플.jpg",
+        "brand": "성분에디터",
+        "category": "앰플",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "아누아 세럼.jpg",
+        "brand": "아누아",
+        "category": "세럼",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "이니스프리 세럼.jpg",
+        "brand": "이니스프리",
+        "category": "세럼",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "코스알엑스 앰플.jpg",
+        "brand": "코스알엑스",
+        "category": "앰플",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "토리든 앰플.jpg",
+        "brand": "토리든",
+        "category": "앰플",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "피지오겔 세럼.jpg",
+        "brand": "피지오겔",
+        "category": "세럼",
+        "ingredient": "비타민C"
+    },
+    {
+        "img": "한율 토너.jpg",
+        "brand": "한율",
+        "category": "토너",
+        "ingredient": "비타민C"
+    },
+    {
+        "name": "레티놀",
+        "effect": "주름 감소 및 피부 세포 재생 촉진.",
+        "detail": "피부의 탄력을 높이고, 주름을 감소시키는 데 도움을 주는 성분입니다. 피부 재생을 촉진하여 건강한 피부를 유지하도록 돕습니다."
+    },
+    {
+        "img": "구달 앰플.jpg",
+        "brand": "구달",
+        "category": "앰플",
+        "ingredient": "레티놀"
+    },
+    {
+        "img": "디오디너리 앰플.jpg",
+        "brand": "디오디너리",
+        "category": "앰플",
+        "ingredient": "레티놀"
+    },
+    {
+        "img": "이니스프리 앰플.jpg",
+        "brand": "이니스프리",
+        "category": "앰플",
+        "ingredient": "레티놀"
+    },
+    {
+        "img": "이니스프리 크림.jpg",
+        "brand": "이니스프리",
+        "category": "크림",
+        "ingredient": "레티놀"
+    },
+    {
+        "img": "코스알엑스 오일.jpg",
+        "brand": "코스알엑스",
+        "category": "오일",
+        "ingredient": "레티놀"
+    },
+    {
+        "img": "코스알엑스 크림.jpg",
+        "brand": "코스알엑스",
+        "category": "크림",
+        "ingredient": "레티놀"
+    },
+    {
+        "img": "프리메라 세럼.jpg",
+        "brand": "프리메라",
+        "category": "세럼",
+        "ingredient": "레티놀"
+    },
+    {
+        "name": "나이아신아마이드",
+        "effect": "멜라닌 전이를 억제하고 피부 톤을 고르게 함.",
+        "detail": "피부의 톤을 고르게 하고, 멜라닌의 전이를 억제하여 밝고 깨끗한 피부를 유지하는 데 도움을 줍니다."
+    },
+    {
+        "img": "디오디너리 앰플.jpg",
+        "brand": "디오디너리",
+        "category": "앰플",
+        "ingredient": "나이아신아마이드"
+    },
+    {
+        "img": "디오디너리 파우더.jpg",
+        "brand": "디오디너리",
+        "category": "파우더",
+        "ingredient": "나이아신아마이드"
+    },
+    {
+        "img": "아누아 세럼.jpg",
+        "brand": "아누아",
+        "category": "세럼",
+        "ingredient": "나이아신아마이드"
+    },
+    {
+        "img": "아누아 크림.jpg",
+        "brand": "아누아",
+        "category": "크림",
+        "ingredient": "나이아신아마이드"
+    },
+    {
+        "img": "아누아 토너.jpg",
+        "brand": "아누아",
+        "category": "토너",
+        "ingredient": "나이아신아마이드"
+    },
+    {
+        "img": "앰플엔 앰플.jpg",
+        "brand": "앰플엔",
+        "category": "앰플",
+        "ingredient": "나이아신아마이드"
+    },
+    {
+        "img": "이즈앤트리 세럼.jpg",
+        "brand": "이즈앤트리",
+        "category": "세럼",
+        "ingredient": "나이아신아마이드"
+    },
+    {
+        "img": "코스알엑스 세럼.jpg",
+        "brand": "코스알엑스",
+        "category": "세럼",
+        "ingredient": "나이아신아마이드"
+    },
+    {
+        "name": "글루타치온",
+        "effect": "멜라닌 생성 감소 및 강력한 항산화 효과.",
+        "detail": "피부의 색소 침착을 완화하고, 항산화 효과를 통해 피부를 밝고 투명하게 유지하는 데 도움을 줍니다."
+    },
+    {
+        "img": "넘버즈인 앰플.jpg",
+        "brand": "넘버즈인",
+        "category": "앰플",
+        "ingredient": "글루타치온"
+    },
+    {
+        "img": "넘버즈인 크림.jpg",
+        "brand": "넘버즈인",
+        "category": "크림",
+        "ingredient": "글루타치온"
+    },
+    {
+        "img": "넘버즈인 토너.jpg",
+        "brand": "넘버즈인",
+        "category": "토너",
+        "ingredient": "글루타치온"
+    },
+    {
+        "img": "넘버즈인 패드.jpg",
+        "brand": "넘버즈인",
+        "category": "패드",
+        "ingredient": "글루타치온"
+    },
+    {
+        "img": "브링그린 세럼.jpg",
+        "brand": "브링그린",
+        "category": "세럼",
+        "ingredient": "글루타치온"
+    },
+    {
+        "img": "브링그린 패드.jpg",
+        "brand": "브링그린",
+        "category": "패드",
+        "ingredient": "글루타치온"
+    },
+    {
+        "img": "아비브 세럼.jpg",
+        "brand": "아비브",
+        "category": "세럼",
+        "ingredient": "글루타치온"
+    },
+    {
+        "img": "아비브 패드.jpg",
+        "brand": "아비브",
+        "category": "패드",
+        "ingredient": "글루타치온"
+    },
+    {
+        "name": "EGF",
+        "effect": "피부 세포 재생 및 탄력 강화.",
+        "detail": ""
+    },
+    {
+        "img": "대웅제약이지듀 앰플.jpg",
+        "brand": "대웅제약이지듀",
+        "category": "앰플",
+        "ingredient": "EGF"
+    },
+    {
+        "img": "디어클레어스 드롭.jpg",
+        "brand": "디어클레어스",
+        "category": "드롭",
+        "ingredient": "EGF"
+    },
+    {
+        "img": "마일드랩 앰플.jpg",
+        "brand": "마일드랩",
+        "category": "앰플",
+        "ingredient": "EGF"
+    },
+    {
+        "img": "마일드랩 크림.jpg",
+        "brand": "마일드랩",
+        "category": "크림",
+        "ingredient": "EGF"
+    },
+    {
+        "img": "아떼 세럼.jpg",
+        "brand": "아떼",
+        "category": "세럼",
+        "ingredient": "EGF"
+    },
+    {
+        "img": "에르쯔틴 크림.jpg",
+        "brand": "에르쯔틴",
+        "category": "크림",
+        "ingredient": "EGF"
+    },
+    {
+        "img": "이지듀 크림.jpg",
+        "brand": "이지듀",
+        "category": "크림",
+        "ingredient": "EGF"
+    },
+    {
+        "name": "PDRN",
+        "effect": "피부 재생 촉진 및 손상된 조직 복구.",
+        "detail": ""
+    },
+    {
+        "img": "vt코스메틱 에센스.jpg",
+        "brand": "VT코스메틱",
+        "category": "에센스",
+        "ingredient": "PDRN"
+    },
+    {
+        "img": "vt코스메틱 크림.jpg",
+        "brand": "VT코스메틱",
+        "category": "크림",
+        "ingredient": "PDRN"
+    },
+    {
+        "img": "더마라인 앰플.jpg",
+        "brand": "더마라인",
+        "category": "앰플",
+        "ingredient": "PDRN"
+    },
+    {
+        "img": "리쥬란 크림.jpg",
+        "brand": "리쥬란",
+        "category": "크림",
+        "ingredient": "PDRN"
+    },
+    {
+        "img": "메디큐브 미스트.jpg",
+        "brand": "메디큐브",
+        "category": "미스트",
+        "ingredient": "PDRN"
+    },
+    {
+        "img": "메디큐브 앰플.jpg",
+        "brand": "메디큐브",
+        "category": "앰플",
+        "ingredient": "PDRN"
+    },
+    {
+        "img": "메디큐브 토너.jpg",
+        "brand": "메디큐브",
+        "category": "토너",
+        "ingredient": "PDRN"
+    },
+    {
+        "img": "아누아 세럼.jpg",
+        "brand": "아누아",
+        "category": "세럼",
+        "ingredient": "PDRN"
+    },
+    {
+        "img": "아이오패 샷.jpg",
+        "brand": "아이오패",
+        "category": "샷",
+        "ingredient": "PDRN"
+    },
+    {
+        "img": "이니스프리 앰플.jpg",
+        "brand": "이니스프리",
+        "category": "앰플",
+        "ingredient": "PDRN"
+    },
+    {
+        "name": "레티날",
+        "effect": "레티놀보다 피부 자극이 적으면서도 유사한 효과 제공.",
+        "detail": ""
+    },
+    {
+        "img": "더마토리 아이패치.jpg",
+        "brand": "더마토리",
+        "category": "아이패치",
+        "ingredient": "레티날"
+    },
+    {
+        "img": "더마토리 패드.jpg",
+        "brand": "더마토리",
+        "category": "패드",
+        "ingredient": "레티날"
+    },
+    {
+        "img": "마일드랩 앰플.jpg",
+        "brand": "마일드랩",
+        "category": "앰플",
+        "ingredient": "레티날"
+    },
+    {
+        "name": "세라마이드",
+        "effect": "피부 장벽을 강화하고 수분 증발 방지.",
+        "detail": ""
+    },
+    {
+        "img": "닥터자르트 크림.jpg",
+        "brand": "닥터자르트",
+        "category": "크림",
+        "ingredient": "세라마이드"
+    },
+    {
+        "img": "로우퀘스트 크림.jpg",
+        "brand": "로우퀘스트",
+        "category": "크림",
+        "ingredient": "세라마이드"
+    },
+    {
+        "img": "앰플엔 세럼.jpg",
+        "brand": "앰플엔",
+        "category": "세럼",
+        "ingredient": "세라마이드"
+    },
+    {
+        "img": "에스트라 로션.jpg",
+        "brand": "에스트라",
+        "category": "로션",
+        "ingredient": "세라마이드"
+    },
+    {
+        "img": "에스트라 크림.jpg",
+        "brand": "에스트라",
+        "category": "크림",
+        "ingredient": "세라마이드"
+    },
+    {
+        "img": "토니모리 토너.jpg",
+        "brand": "토니모리",
+        "category": "토너",
+        "ingredient": "세라마이드"
+    },
+    {
+        "img": "피지오겔 크림.jpg",
+        "brand": "피지오겔",
+        "category": "크림",
+        "ingredient": "세라마이드"
+    },
+    {
+        "name": "판테놀",
+        "effect": "피부를 촉촉하고 유연하게 유지하며 장벽 회복.",
+        "detail": ""
+    },
+    {
+        "img": "라로슈포제 크림.jpg",
+        "brand": "라로슈포제",
+        "category": "크림",
+        "ingredient": "판테놀"
+    },
+    {
+        "img": "라로슈포제 토너.jpg",
+        "brand": "라로슈포제",
+        "category": "토너",
+        "ingredient": "판테놀"
+    },
+    {
+        "img": "라운드랩 크림.jpg",
+        "brand": "라운드랩",
+        "category": "크림",
+        "ingredient": "판테놀"
+    },
+    {
+        "img": "마일드랩 크림.jpg",
+        "brand": "마일드랩",
+        "category": "크림",
+        "ingredient": "판테놀"
+    },
+    {
+        "img": "셀리맥스 앰플.jpg",
+        "brand": "셀리맥스",
+        "category": "앰플",
+        "ingredient": "판테놀"
+    },
+    {
+        "img": "시드물 앰플.jpg",
+        "brand": "시드물",
+        "category": "앰플",
+        "ingredient": "판테놀"
+    },
+    {
+        "img": "아이디얼포맨 올인원.jpg",
+        "brand": "아이디얼포맨",
+        "category": "올인원",
+        "ingredient": "판테놀"
+    },
+    {
+        "img": "에스네이처 수분크림.jpg",
+        "brand": "에스네이처",
+        "category": "크림",
+        "ingredient": "판테놀"
+    },
+    {
+        "img": "파티온 세럼.jpg",
+        "brand": "파티온",
+        "category": "세럼",
+        "ingredient": "판테놀"
+    },
+    {
+        "name": "바쿠치올",
+        "effect": "식물성 레티놀 대체제. 피부 자극 적으면서 안티에이징 효과.",
+        "detail": ""
+    },
+    {
+        "img": "닥터자르트 세럼.jpg",
+        "brand": "닥터자르트",
+        "category": "세럼",
+        "ingredient": "바쿠치올"
+    },
+    {
+        "img": "닥터자르트 크림.jpg",
+        "brand": "닥터자르트",
+        "category": "크림",
+        "ingredient": "바쿠치올"
+    },
+    {
+        "img": "닥터지 세럼.jpg",
+        "brand": "닥터지",
+        "category": "세럼",
+        "ingredient": "바쿠치올"
+    },
+    {
+        "img": "닥터지 크림.jpg",
+        "brand": "닥터지",
+        "category": "크림",
+        "ingredient": "바쿠치올"
+    },
+    {
+        "img": "마몽드 크림.jpg",
+        "brand": "마몽드",
+        "category": "크림",
+        "ingredient": "바쿠치올"
+    },
+    {
+        "img": "마몽드 패드.jpg",
+        "brand": "마몽드",
+        "category": "패드",
+        "ingredient": "바쿠치올"
+    },
+    {
+        "img": "반코르 세럼.jpg",
+        "brand": "반코르",
+        "category": "세럼",
+        "ingredient": "바쿠치올"
     }
-
 ]
