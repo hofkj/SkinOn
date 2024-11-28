@@ -192,7 +192,7 @@ body {
     padding: 20px;
     max-width: 80%;
     width: 727px;
-height: 251px;
+    height: 251px;
 }
 
 /* 제목 스타일 */
@@ -231,7 +231,7 @@ h1 {
 }
 
 /* 슬라이드 내 텍스트가 너무 크지 않게 조정 */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .banner-content h1 {
         font-size: 34px;
     }
@@ -244,7 +244,128 @@ h1 {
         padding: 12px 25px;
         font-size: 16px;
     }
+} */
+
+
+/*  패드 반응형 */
+@media (max-width: 1024px) {
+
+    .swiper-slide {
+        max-height: 600px;
+        height: 100%;
+    }
+
+    .swiper-button-next {
+        margin-right: 5%;
+        top: 60%;
+    }
+
+    .swiper-button-prev {
+        margin-left: 5%;
+        top: 60%;
+    }
+
+    .swiper-pagination {}
+
+    .title {
+        font-size: 36px;
+    }
+
+    .banner-content1 p, .banner-content p {
+        font-size: 26px;
+    }
+
+    .main-banner {
+        position: relative;
+        width: 100%;
+        height: 440px;
+        overflow: hidden;
+    }
+
 }
 
+/*  폰 반응형 */
+@media (max-width: 600px) {
+    .swiper-slide {
+        max-height: 400px;
+        height: 100%;
+    }
 
-/* 반응형 */
+    .swiper-button-next {
+        margin-right: 5%;
+        top: 60%;
+    }
+
+    .swiper-button-prev {
+        margin-left: 5%;
+        top: 60%;
+    }
+
+    .swiper-pagination {}
+
+    .title {
+        font-size: 28px;
+    }
+
+    .banner-content1 {
+        margin-left: 30px;
+    }
+
+    .banner-content1 p, .banner-content p {
+        font-size: 22px;
+    }
+
+
+    .card {
+        display: flex;
+        width: 500px;
+        height: 200px;
+        padding: 8px 60px;
+        align-items: center;
+        gap: 13.774px;
+        border-radius: 13px;
+        background: #FFF;
+
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.08);
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 10px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 25px;
+        top: 25px;
+        }
+
+        .card-content h3 {
+            position: absolute;
+            top: 60px;
+            left: 220px;
+        }
+        
+        .card-content p {
+            position: absolute;
+            top: 105px;
+            left: 220px;
+       
+        }
+
+        .banner-content {
+            top: 60%;
+        }
+
+        .routine-section h2 {
+            font-size: 34px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .main-banner {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+}
