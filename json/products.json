@@ -2,7 +2,8 @@
     {
         "name": "hyaluronic",
         "effect": "수분을 끌어들여 피부를 촉촉하게 유지. 피부 장벽 강화.",
-        "detail": " 다른 성분이랑 같이 쓰면 좋음"
+        "detail": " 다른 성분이랑 같이 쓰면 좋음",
+        "image": "히알루론산.png"
     },
     {
         "img": "웰라쥬 앰플.jpg",
@@ -151,7 +152,8 @@
     {
         "name": "펩타이드",
         "effect": "콜라겐 생성을 촉진하여 피부 탄력 개선.",
-        "detail": "ㅇㅇ"
+        "detail": "ㅇㅇ",
+        "image": "펩타이드.png"
     },
     {
         "img": "더페이스샵 크림.jpg",
@@ -245,7 +247,8 @@
     {
         "name": "콜라겐",
         "effect": "피부에 탄력을 부여하고 주름 완화.",
-        "detail": "ㅇㅇ"
+        "detail": "ㅇㅇ",
+        "image": "콜라겐.png"
     },
     {
         "img": "ckd 크림.jpg",
@@ -304,7 +307,8 @@
     {
         "name": "알부틴",
         "effect": "멜라닌 생성을 억제하여 미백 효과.",
-        "detail": "ㅇㅇ"
+        "detail": "ㅇㅇ",
+        "image": "알부틴.png"
     },
     {
         "img": "디오디너리 앰플.jpg",
@@ -357,7 +361,8 @@
     {
         "name": "알로에",
         "effect": "피부 진정 및 수분 공급.",
-        "detail": "ㅇㅇ"
+        "detail": "ㅇㅇ",
+        "image": "알로에.png"
     },
     {
         "img": "디오디너리 앰플.jpg",
@@ -446,7 +451,8 @@
     {
         "name": "비타민C",
         "effect": "항산화 작용과 함께 멜라닌 억제로 피부 톤 밝게.",
-        "detail": "ㅇㅇ"
+        "detail": "ㅇㅇ",
+        "image": "비타민C.png"
     },
     {
         "img": "구달 세럼.jpg",
@@ -547,7 +553,8 @@
     {
         "name": "레티놀",
         "effect": "주름 감소 및 피부 세포 재생 촉진.",
-        "detail": "피부의 탄력을 높이고, 주름을 감소시키는 데 도움을 주는 성분입니다. 피부 재생을 촉진하여 건강한 피부를 유지하도록 돕습니다."
+        "detail": "피부의 탄력을 높이고, 주름을 감소시키는 데 도움을 주는 성분입니다. 피부 재생을 촉진하여 건강한 피부를 유지하도록 돕습니다.",
+        "image": "레티놀.png"
     },
     {
         "img": "구달 앰플.jpg",
@@ -594,7 +601,8 @@
     {
         "name": "나이아신아마이드",
         "effect": "멜라닌 전이를 억제하고 피부 톤을 고르게 함.",
-        "detail": "피부의 톤을 고르게 하고, 멜라닌의 전이를 억제하여 밝고 깨끗한 피부를 유지하는 데 도움을 줍니다."
+        "detail": "피부의 톤을 고르게 하고, 멜라닌의 전이를 억제하여 밝고 깨끗한 피부를 유지하는 데 도움을 줍니다.",
+        "image": "나이아신아마이드.png"
     },
     {
         "img": "디오디너리 앰플.jpg",
@@ -647,7 +655,8 @@
     {
         "name": "글루타치온",
         "effect": "멜라닌 생성 감소 및 강력한 항산화 효과.",
-        "detail": "피부의 색소 침착을 완화하고, 항산화 효과를 통해 피부를 밝고 투명하게 유지하는 데 도움을 줍니다."
+        "detail": "피부의 색소 침착을 완화하고, 항산화 효과를 통해 피부를 밝고 투명하게 유지하는 데 도움을 줍니다.",
+        "image": "글루타치온.png"
     },
     {
         "img": "넘버즈인 앰플.jpg",
@@ -700,7 +709,8 @@
     {
         "name": "EGF",
         "effect": "피부 세포 재생 및 탄력 강화.",
-        "detail": ""
+        "detail": "",
+        "image": "EGF.png"
     },
     {
         "img": "대웅제약이지듀 앰플.jpg",
@@ -747,7 +757,8 @@
     {
         "name": "PDRN",
         "effect": "피부 재생 촉진 및 손상된 조직 복구.",
-        "detail": ""
+        "detail": "",
+        "image": "PDRN.png"
     },
     {
         "img": "vt코스메틱 에센스.jpg",
@@ -812,7 +823,8 @@
     {
         "name": "레티날",
         "effect": "레티놀보다 피부 자극이 적으면서도 유사한 효과 제공.",
-        "detail": ""
+        "detail": "",
+        "image": "레티날.png"
     },
     {
         "img": "더마토리 아이패치.jpg",
@@ -835,7 +847,8 @@
     {
         "name": "세라마이드",
         "effect": "피부 장벽을 강화하고 수분 증발 방지.",
-        "detail": ""
+        "detail": "",
+        "image": "세라마이드.png"
     },
     {
         "img": "닥터자르트 크림.jpg",
@@ -882,7 +895,8 @@
     {
         "name": "판테놀",
         "effect": "피부를 촉촉하고 유연하게 유지하며 장벽 회복.",
-        "detail": ""
+        "detail": "",
+        "image": "판테놀.png"
     },
     {
         "img": "라로슈포제 크림.jpg",
@@ -941,7 +955,8 @@
     {
         "name": "바쿠치올",
         "effect": "식물성 레티놀 대체제. 피부 자극 적으면서 안티에이징 효과.",
-        "detail": ""
+        "detail": "",
+        "image": "바쿠치올.png"
     },
     {
         "img": "닥터자르트 세럼.jpg",
@@ -984,5 +999,551 @@
         "brand": "반코르",
         "category": "세럼",
         "ingredient": "바쿠치올"
+    },
+    {
+        "name": "스피큘",
+        "effect": "바늘 형태의 성분으로 피부 재생을 촉진하며 흡수율 증가.",
+        "detail": "",
+        "image": "스피큘.png"
+    },
+    {
+        "img": "vt코스메틱 레티에이리들샷100.jpg",
+        "brand": "vt코스메틱",
+        "category": "레티에이리들샷100",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "vt코스메틱 리들샷50.jpg",
+        "brand": "vt코스메틱",
+        "category": "리들샷50",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "vt코스메틱 리들샷1000.jpg",
+        "brand": "vt코스메틱",
+        "category": "리들샷1000",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "vt코스메틱 비타-라이트리들샷100.jpg",
+        "brand": "vt코스메틱",
+        "category": "비타-라이트리들샷100",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "vt코스메틱 시카리들샷100.jpg",
+        "brand": "vt코스메틱",
+        "category": "시카리들샷100",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "vt코스메틱 콜라겐리들샷100.jpg",
+        "brand": "vt코스메틱",
+        "category": "콜라겐리들샷100",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "vt코스메틱 피디알엔리들샷100.jpg",
+        "brand": "vt코스메틱",
+        "category": "피디알엔리들샷100",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "vt코스메틱 히알드롭리들샷100.jpg",
+        "brand": "vt코스메틱",
+        "category": "히알드롭리들샷100",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "닥터지 비타민샷.jpg",
+        "brand": "닥터지",
+        "category": "비타민샷",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "닥터지 펩타샷.jpg",
+        "brand": "닥터지",
+        "category": "펩타샷",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "닥터지 히알샷.jpg",
+        "brand": "닥터지",
+        "category": "히알샷",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "메디힐 세럼.jpg",
+        "brand": "메디힐",
+        "category": "세럼",
+        "ingredient": "스피큘"
+    },
+    {
+        "img": "성분에디터 앰플.jpg",
+        "brand": "성분에디터",
+        "category": "앰플",
+        "ingredient": "스피큘"
+    },
+    {
+        "name": "티트리",
+        "effect": "피부 진정 및 상처 회복.",
+        "detail": "",
+        "image": "티트리.png"
+    },
+    {
+        "img": "메디힐 세럼.jpg",
+        "brand": "메디힐",
+        "category": "세럼",
+        "ingredient": "티트리"
+    },
+    {
+        "img": "메디힐 앰플.jpg",
+        "brand": "메디힐",
+        "category": "앰플",
+        "ingredient": "티트리"
+    },
+    {
+        "img": "메디힐 패드.jpg",
+        "brand": "메디힐",
+        "category": "패드",
+        "ingredient": "티트리"
+    },
+    {
+        "img": "브링그린 세럼.jpg",
+        "brand": "브링그린",
+        "category": "세럼",
+        "ingredient": "티트리"
+    },
+    {
+        "img": "아이소이 크림.jpg",
+        "brand": "아이소이",
+        "category": "크림",
+        "ingredient": "티트리"
+    },
+    {
+        "img": "아이소이 토너.jpg",
+        "brand": "아이소이",
+        "category": "토너",
+        "ingredient": "티트리"
+    },
+    {
+        "img": "어바웃미 세럼.jpg",
+        "brand": "어바웃미",
+        "category": "세럼",
+        "ingredient": "티트리"
+    },
+    {
+        "img": "어바웃미 크림.jpg",
+        "brand": "어바웃미",
+        "category": "크림",
+        "ingredient": "티트리"
+    },
+    {
+        "img": "에센허브 오일.jpg",
+        "brand": "에센허브",
+        "category": "오일",
+        "ingredient": "티트리"
+    },
+    {
+        "img": "에센허브 크림.jpg",
+        "brand": "에센허브",
+        "category": "크림",
+        "ingredient": "티트리"
+    },
+    {
+        "name": "마데카소사이드",
+        "effect": "수용성 성분으로 각질 제거 및 피부 톤 개선.",
+        "detail": "ㅇㅇ",
+        "image": "마데카소사이드.jpg"
+    },
+    {
+        "img": "닥터지 수딩크림.jpg",
+        "brand": "닥터지",
+        "category": "크림",
+        "ingredient": "마데카소사이드"
+    },
+    {
+        "img": "메디힐 세럼.jpg",
+        "brand": "메디힐",
+        "category": "세럼",
+        "ingredient": "마데카소사이드"
+    },
+    {
+        "img": "메디힐 패드.jpg",
+        "brand": "메디힐",
+        "category": "패드",
+        "ingredient": "마데카소사이드"
+    },
+    {
+        "img": "스킨푸드 패드.jpg",
+        "brand": "스킨푸드",
+        "category": "패드",
+        "ingredient": "마데카소사이드"
+    },
+    {
+        "img": "에스트라 세럼.jpg",
+        "brand": "에스트라",
+        "category": "세럼",
+        "ingredient": "마데카소사이드"
+    },
+    {
+        "img": "차앤박 앰플.jpg",
+        "brand": "차앤박",
+        "category": "앰플",
+        "ingredient": "마데카소사이드"
+    },
+    {
+        "img": "피캄 토너.jpg",
+        "brand": "피캄",
+        "category": "토너",
+        "ingredient": "마데카소사이드"
+    },
+    {
+        "name": "시카",
+        "effect": "피부 진정 및 상처 회복.",
+        "detail": "ㅇㅇ",
+        "image": "시카.png"
+    },
+    {
+        "img": "닥터자르트 미스트.jpg",
+        "brand": "닥터자르트",
+        "category": "미스트",
+        "ingredient": "시카"
+    },
+    {
+        "img": "더히르나이 크림.jpg",
+        "brand": "더히르나이",
+        "category": "크림",
+        "ingredient": "시카"
+    },
+    {
+        "img": "라운드랩 로션.jpg",
+        "brand": "라운드랩",
+        "category": "로션",
+        "ingredient": "시카"
+    },
+    {
+        "img": "라운드랩 앰플.jpg",
+        "brand": "라운드랩",
+        "category": "앰플",
+        "ingredient": "시카"
+    },
+    {
+        "img": "바이오힐보 크림.jpg",
+        "brand": "바이오힐보",
+        "category": "크림",
+        "ingredient": "시카"
+    },
+    {
+        "img": "브링그린 크림.jpg",
+        "brand": "브링그린",
+        "category": "크림",
+        "ingredient": "시카"
+    },
+    {
+        "img": "브링그린 토너.jpg",
+        "brand": "브링그린",
+        "category": "토너",
+        "ingredient": "시카"
+    },
+    {
+        "img": "비플레인 앰플.jpg",
+        "brand": "비플레인",
+        "category": "앰플",
+        "ingredient": "시카"
+    },
+    {
+        "img": "비플레인 크림.jpg",
+        "brand": "비플레인",
+        "category": "크림",
+        "ingredient": "시카"
+    },
+    {
+        "img": "비플레인 토너.jpg",
+        "brand": "비플레인",
+        "category": "토너",
+        "ingredient": "시카"
+    },
+    {
+        "img": "에스트라 크림.jpg",
+        "brand": "에스트라",
+        "category": "크림",
+        "ingredient": "시카"
+    },
+    {
+        "img": "에스트라 토너.jpg",
+        "brand": "에스트라",
+        "category": "토너",
+        "ingredient": "시카"
+    },
+    {
+        "img": "웰라쥬 크림.jpg",
+        "brand": "웰라쥬",
+        "category": "크림",
+        "ingredient": "시카"
+    },
+    {
+        "img": "토리든 세럼.jpg",
+        "brand": "토리든",
+        "category": "세럼",
+        "ingredient": "시카"
+    },
+    {
+        "img": "토리든 크림.jpg",
+        "brand": "토리든",
+        "category": "크림",
+        "ingredient": "시카"
+    },
+    {
+        "img": "판넬 세럼.jpg",
+        "brand": "판넬",
+        "category": "세럼",
+        "ingredient": "시카"
+    },
+    {
+        "img": "한율 수분크림.jpg",
+        "brand": "한율",
+        "category": "크림",
+        "ingredient": "시카"
+    },
+    {
+        "name": "여성초",
+        "effect": "피부 염증 완화 및 진정.",
+        "detail": "ㅇㅇ",
+        "image": "여성초.jpg"
+    },
+    {
+        "img": "구달 수딩크림.jpg",
+        "brand": "구달",
+        "category": "수딩크림",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "구달 앰플.jpg",
+        "brand": "구달",
+        "category": "앰플",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "아누아 로션.jpg",
+        "brand": "아누아",
+        "category": "로션",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "아누아 앰플.jpg",
+        "brand": "아누아",
+        "category": "앰플",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "아누아 토너.jpg",
+        "brand": "아누아",
+        "category": "토너",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "아누아 패드.jpg",
+        "brand": "아누아",
+        "category": "패드",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "아비브 에센스.jpg",
+        "brand": "아비브",
+        "category": "에센스",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "아비브 크림.jpg",
+        "brand": "아비브",
+        "category": "크림",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "아비브 토너.jpg",
+        "brand": "아비브",
+        "category": "토너",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "아비브 패드.jpg",
+        "brand": "아비브",
+        "category": "패드",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "잇츠스킨 앰플.jpg",
+        "brand": "잇츠스킨",
+        "category": "앰플",
+        "ingredient": "여성초"
+    },
+    {
+        "img": "헤이네이처 토너.jpg",
+        "brand": "헤이네이처",
+        "category": "토너",
+        "ingredient": "여성초"
+    },
+    {
+        "name": "바하",
+        "effect": "지용성 성분으로 모공 속 노폐물 제거.",
+        "detail": "ㅇㅇ",
+        "image": "바하.png"
+    },
+    {
+        "img": "메디큐브 세럼.jpg",
+        "brand": "메디큐브",
+        "category": "세럼",
+        "ingredient": "바하"
+    },
+    {
+        "img": "스킨푸드 패드.jpg",
+        "brand": "스킨푸드",
+        "category": "패드",
+        "ingredient": "바하"
+    },
+    {
+        "img": "스트라이덱스 패드.jpg",
+        "brand": "스트라이덱스",
+        "category": "패드",
+        "ingredient": "바하"
+    },
+    {
+        "img": "에스트라 세럼.jpg",
+        "brand": "에스트라",
+        "category": "세럼",
+        "ingredient": "바하"
+    },
+    {
+        "img": "잇츠스킨 앰플.jpg",
+        "brand": "잇츠스킨",
+        "category": "앰플",
+        "ingredient": "바하"
+    },
+    {
+        "img": "차앤박 앰플.jpg",
+        "brand": "차앤박",
+        "category": "앰플",
+        "ingredient": "바하"
+    },
+    {
+        "name": "파하",
+        "effect": "자극이 적으면서도 각질 제거 효과 제공.",
+        "detail": "ㅇㅇ",
+        "image": "파하.png"
+    },
+    {
+        "img": "니들리 패드.jpg",
+        "brand": "니들리",
+        "category": "패드",
+        "ingredient": "파하"
+    },
+    {
+        "img": "마몽드 마스크.jpg",
+        "brand": "마몽드",
+        "category": "마스크",
+        "ingredient": "파하"
+    },
+    {
+        "img": "메디큐브 세럼.jpg",
+        "brand": "메디큐브",
+        "category": "세럼",
+        "ingredient": "파하"
+    },
+    {
+        "img": "에스네이처 토너.jpg",
+        "brand": "에스네이처",
+        "category": "토너",
+        "ingredient": "파하"
+    },
+    {
+        "img": "일소 패드.jpg",
+        "brand": "일소",
+        "category": "패드",
+        "ingredient": "파하"
+    },
+    {
+        "name": "라하",
+        "effect": "바하의 변형으로 자극이 덜하고 모공 관리에 효과적.",
+        "detail": "ㅇㅇ",
+        "image": "라하.jpeg"
+    },
+    {
+        "img": "비건이팩트 패드.jpg",
+        "brand": "비건이팩트",
+        "category": "패드",
+        "ingredient": "라하"
+    },
+    {
+        "img": "비플레인 토너.jpg",
+        "brand": "비플레인",
+        "category": "토너",
+        "ingredient": "라하"
+    },
+    {
+        "img": "일소 세럼.jpg",
+        "brand": "일소",
+        "category": "세럼",
+        "ingredient": "라하"
+    },
+    {
+        "img": "일소 패드.jpg",
+        "brand": "일소",
+        "category": "패드",
+        "ingredient": "라하"
+    },
+    {
+        "img": "프리메라 패드.png",
+        "brand": "프리메라",
+        "category": "패드",
+        "ingredient": "라하"
+    },
+    {
+        "name": "아하",
+        "effect": "수용성 성분으로 각질 제거 및 피부 톤 개선.",
+        "detail": "ㅇㅇ",
+        "image": "아하.png"
+    },
+    {
+        "img": "메디큐브 세럼.jpg",
+        "brand": "메디큐브",
+        "category": "세럼",
+        "ingredient": "아하"
+    },
+    {
+        "img": "카엘 필.jpg",
+        "brand": "카엘",
+        "category": "필링",
+        "ingredient": "아하"
+    },
+    {
+        "img": "네오젠 패드.jpg",
+        "brand": "네오젠",
+        "category": "패드",
+        "ingredient": "아하"
+    },
+    {
+        "img": "디오디너리 앰플.jpg",
+        "brand": "디오디너리",
+        "category": "앰플",
+        "ingredient": "아하"
+    },
+    {
+        "img": "아벤느 세럼.jpg",
+        "brand": "아벤느",
+        "category": "세럼",
+        "ingredient": "아하"
+    },
+    {
+        "img": "오휘 세럼.jpg",
+        "brand": "오휘",
+        "category": "세럼",
+        "ingredient": "아하"
+    },
+    {
+        "img": "조선미녀 토너.jpg",
+        "brand": "조선미녀",
+        "category": "토너",
+        "ingredient": "아하"
     }
 ]
