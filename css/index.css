@@ -216,6 +216,31 @@ h1 {
     transform: translateY(-50%);
 }
 
+.moisturizing {
+    background-image: url('/images/water.png');
+}
+
+.Brightening {
+    background-image: url('/images/vitaminc.png');;
+}
+
+.Regeneration {
+    background-image: url('/images/collagen.jpg');;
+}
+
+.Anti-aging{
+    background-image: url('/images/retinol.png');;
+}
+
+.texture {
+    background-image: url('/images/bha.png');;
+}
+
+.Soothing {
+    background-image: url('/images/teatree.png');;
+}
+
+
 /* 슬라이드 내 텍스트가 너무 크지 않게 조정 */
 /* @media (max-width: 768px) {
     .banner-content h1 {
