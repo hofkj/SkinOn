@@ -9,9 +9,6 @@ var swiper = new Swiper('.swiper-container', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    autoplay: {
-        delay: 5000, 
-    },
     on: {
         slideChangeTransitionEnd: function () {
             const activeSlide = document.querySelector('.swiper-slide-active .banner-content');
@@ -24,6 +21,7 @@ var swiper = new Swiper('.swiper-container', {
         }
     }
 });
+
 
 document.addEventListener('scroll', function () {
     const ingredientsSection = document.querySelector('.ingredients-section');
