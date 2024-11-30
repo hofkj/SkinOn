@@ -1,14 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const selectedIngredient = localStorage.getItem('selectedIngredient'); // 저장된 성분 이름 가져오기
-    document.querySelector('.name').textContent = selectedIngredient; // 이름 표시
+    const selectedIngredient = localStorage.getItem('selectedIngredient'); 
+    document.querySelector('.name').textContent = selectedIngredient; 
 
-    fetch('/json/products.json') // JSON 파일 불러오기
+    fetch('/json/products.json') 
         .then(response => response.json())
         .then(productData => {
-            // 성분 이름으로 데이터 필터링
-            const filteredProducts = productData.filter(item => item.ingredient === selectedIngredient);
+            const ingredientData = productData.find(item => item.name === selectedIngredient);
 
+            if (ingredientData) {
+                document.querySelector('.effect').textContent = ingredientData.effect;
+                document.querySelector('.detail').textContent = ingredientData.detail;
+                document.querySelector('.effect-img img').src = `/ingredient-img/${ingredientData.image}`;
+            }
+
+            const filteredProducts = productData.filter(item => item.ingredient === selectedIngredient);
             const cardsContainer = document.querySelector('.cards-container');
+
             filteredProducts.forEach(product => {
                 const card = document.createElement('div');
                 card.classList.add('card');

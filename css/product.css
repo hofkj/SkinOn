@@ -5,7 +5,7 @@ main {
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    padding-top: 50px;
+    padding-top: 120px;
     padding-bottom: 200px;
 }
 
@@ -28,7 +28,8 @@ main {
     background: rgba(255, 255, 255, 0.80);
     box-shadow: 0px 4px 34.2px 0px rgba(0, 0, 0, 0.12);
     backdrop-filter: blur(2px);
-    width: 217.576px;
+    width: 307.576px;
+    /* width: 215.576px; */
     height: 75.815px;
     color: var(--deepblue, #0A4A92);
     font-family: Orbitron;
@@ -39,11 +40,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .effect {
-    width: 530px;
-    height: 530px;
+    width: 480px;
+    height: 480px;
     border-radius: 50px;
     background: #D4FFF1;
     color: var(--Color, #000);
@@ -60,8 +62,8 @@ main {
 }
 
 .detail {
-    width: 530px;
-    height: 530px;
+    width: 480px;
+    height: 480px;
     border-radius: 50px;
     background: #D4FFF1;
     color: var(--Color, #000);
@@ -73,13 +75,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 59px;
+    padding: 50px 79px;
     right: 59px;
 }
 
 .effect-img {
-    width: 480px;
-    height: 480px;
+    width: 400px;
+    height: 400px;
     border-radius: 50px;
     background: rgba(255, 255, 255, 0.80);
     box-shadow: 0px 4px 34.2px 0px rgba(0, 0, 0, 0.12);
@@ -87,12 +89,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url("/ingredient-img/히알루론산.jpg"); */
-
-
     position: relative;
-    z-index: 10;
-    top: 20px;
+    z-index: 5;
+    top: 10px;
+    overflow: hidden; 
 }
 
 .effect,
@@ -118,13 +118,10 @@ main {
 }
 
 /* 제품 카드 */
-
 .cards-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-    /* 자동으로 열을 채우되, 최소 250px 크기 */
-    gap: 38px;
-    /* 카드 간격 */
+    grid-template-columns: repeat(4, 1fr); /* 한 줄에 4개 */
+    gap: 20px; /* 카드 간격 */
     margin-top: 30px;
 }
 
@@ -168,3 +165,89 @@ main {
 }
 
 /* 반응형 */
+
+/* 제품들 반응형 */
+@media (max-width: 1400px) {
+
+    .container2 {
+        width: 1000px;
+    }
+
+}
+
+/*  패드 반응형 */
+@media (max-width: 1200px) {
+
+    .effect {
+        width: 330px;
+        height: 330px;
+        font-size: 22px;
+    }
+    
+    .detail {
+        width: 330px;
+        height: 330px;
+        font-size: 20px;
+    }
+
+    .effect-img {
+        width: 270px;
+        height: 270px;
+    }
+
+    .name {
+        width: 131.112px;
+        height: 45.686px;
+        font-size: 21px;
+    }
+
+    .container2 {
+        width: 800px;
+    }
+}
+
+
+/*  폰 반응형 */
+@media (max-width: 800px) {
+
+    .effect {
+        position: absolute;
+        width: 250px;
+        height: 180px;
+        border-radius: 11.856px;
+        padding: 20px 20px;
+        left: 40px;
+        top: 520px;
+        font-size: 16px;
+    }
+
+    .effect-img {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .detail {
+        position: absolute;
+        width: 250px;
+        height: 180px;
+        border-radius: 11.856px;
+        padding: 20px 20px;
+        right: 40px;
+        top: 520px;
+        font-size: 16px;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 한 줄에 4개 */
+    }
+
+    .container2 {
+        width: 550px;
+        margin-top: 300px;
+    }
+
+}
+
