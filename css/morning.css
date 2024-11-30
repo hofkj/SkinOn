@@ -13,8 +13,7 @@ body {
 
 main {
     margin: 100px;
-    height: calc(100vh - 200px);
-
+    height: 1100px;
 }
 
 .container {
@@ -130,6 +129,13 @@ select {
     }
 }
 
+@media (max-width: 650px) {
+    button {
+        padding: 5px 5px; 
+        font-size: 12px;  
+    }
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 1.5em;
@@ -160,7 +166,7 @@ select {
 
     button {
         padding: 6px 8px; 
-        font-size: 12px; 
+        font-size: 12px;  
     }
 
     #option-list li {

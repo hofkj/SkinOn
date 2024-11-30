@@ -13,8 +13,7 @@ body {
 
 main {
     margin: 100px;
-    height: calc(100vh - 200px);
-
+    height: 1100px;
 }
 
 .container {
@@ -127,6 +126,13 @@ select {
 @media (max-width: 800px) {
     .main-content {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 650px) {
+    button {
+        padding: 5px 5px; 
+        font-size: 12px;  
     }
 }
 
