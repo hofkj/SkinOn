@@ -141,9 +141,6 @@ body {
     color: #777;
 }
 
-
-
-/* 전체 배경 및 슬라이드 스타일 */
 .main-banner {
     position: relative;
     width: 100%;
@@ -156,24 +153,19 @@ body {
     justify-content: center;
     align-items: center;
     background-size: cover;
-    /* 이미지가 슬라이드를 꽉 채움 */
     background-position: center center;
-    /* 이미지 중심에 맞춤 */
     text-align: center;
     height: 100%;
     position: relative;
 }
 
-/* 배너 텍스트 영역 */
 .banner-content1 {
     color: white;
-    /* 텍스트 가독성 향상 */
     z-index: 1;
     position: absolute;
     top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
-    /* 슬라이드의 정확한 중앙에 배치 */
     text-align: center;
     padding: 20px;
     max-width: 80%;
@@ -181,13 +173,11 @@ body {
 
 .banner-content {
     color: white;
-    /* 텍스트 가독성 향상 */
     z-index: 1;
     position: absolute;
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
-    /* 슬라이드의 정확한 중앙에 배치 */
     text-align: center;
     padding: 20px;
     max-width: 80%;
@@ -195,7 +185,6 @@ body {
     height: 251px;
 }
 
-/* 제목 스타일 */
 h1 {
     color: var(--deepblue, #0A4A92);
     text-align: center;
@@ -206,7 +195,6 @@ h1 {
     line-height: normal;
 }
 
-/* 부제목 스타일 */
 .swiper-slide p {
     color: var(--deepblue, #0A4A92);
     text-align: center;
@@ -220,10 +208,8 @@ h1 {
 
 .banner-content .btn:active {
     transform: translateY(0);
-    /* 버튼 클릭 시 원위치 */
 }
 
-/* 슬라이드 하단의 세로 여백을 최소화 */
 .swiper-button-next,
 .swiper-button-prev {
     top: 50%;

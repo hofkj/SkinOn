@@ -1,7 +1,6 @@
-// Swiper.js 초기화
 var swiper = new Swiper('.swiper-container', {
-    effect: 'fade', // 페이드 전환 효과
-    loop: true, // 무한 루프
+    effect: 'fade', 
+    loop: true,
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -11,7 +10,7 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
     autoplay: {
-        delay: 5000, // 5초마다 자동 슬라이드
+        delay: 5000, 
     },
     on: {
         slideChangeTransitionEnd: function () {
@@ -26,7 +25,6 @@ var swiper = new Swiper('.swiper-container', {
     }
 });
 
-// 스크롤에 따른 애니메이션
 document.addEventListener('scroll', function () {
     const ingredientsSection = document.querySelector('.ingredients-section');
     const productsSection = document.querySelector('.products-section');

@@ -40,7 +40,7 @@ function updateRoutineSelects() {
             optionElement.textContent = option;
             select.appendChild(optionElement);
         });
-        select.value = currentValue; // Preserve the selected value
+        select.value = currentValue;
     });
 }
 

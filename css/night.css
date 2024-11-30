@@ -159,8 +159,8 @@ select {
     }
 
     button {
-        padding: 6px 8px;  /* 모바일에서 가장 작은 padding */
-        font-size: 12px;  /* 모바일에서 가장 작은 font-size */
+        padding: 6px 8px; 
+        font-size: 12px;  
     }
 
     #option-list li {

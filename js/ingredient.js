@@ -25,20 +25,16 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     });
 
-    // URL에서 카테고리 값 추출
     const urlParams = new URLSearchParams(window.location.search);
     const category = urlParams.get("category");
 
-    // JSON 데이터 가져오기
-    fetch("/json/data.json") // JSON 파일의 경로를 지정하세요.
+    fetch("/json/data.json") 
         .then((response) => response.json())
         .then((data) => {
-            // 카테고리에 맞는 데이터 필터링
             const filteredData = data.filter((item) => item.category === category);
 
-            // 슬라이드 생성
             const swiperWrapper = document.querySelector(".swiper-wrapper");
-            swiperWrapper.innerHTML = ""; // 기존 슬라이드를 지우기
+            swiperWrapper.innerHTML = ""; 
 
             filteredData.forEach((item) => {
                 const slide = document.createElement("div");
@@ -55,9 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
             `;
 
                 slide.addEventListener("click", () => {
-                    const name = slide.querySelector("h2").textContent; // 클릭된 성분 이름 가져오기
-                    localStorage.setItem("selectedIngredient", name); // localStorage에 저장
-                    window.location.href = "/html/product.html"; // product.html로 이동
+                    const name = slide.querySelector("h2").textContent;
+                    localStorage.setItem("selectedIngredient", name); 
+                    window.location.href = "/html/product.html";
                 });
 
                 swiperWrapper.appendChild(slide);

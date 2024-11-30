@@ -241,7 +241,7 @@ main {
 
     .cards-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 한 줄에 4개 */
+        grid-template-columns: repeat(3, 1fr); 
     }
 
     .container2 {
